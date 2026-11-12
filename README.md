@@ -1,15 +1,29 @@
 # SoloLedger
 
-UK sole-trader income, expense, customer and invoice tracking.
+**A straightforward income, expenses and invoicing tool for UK sole traders.**
 
-## Current release
+🌐 [Try SoloLedger](https://sololedger-4lt.pages.dev/)
 
-Production: https://sololedger-4lt.pages.dev/
+I built SoloLedger around the sort of admin that gets annoying when you're running a small business: keeping track of money coming in, recording expenses, organising customers and putting invoices together without needing a complicated accounting system.
 
-The deployed v0.3.3-beta.2 application is currently maintained as a Cloudflare Pages upload artifact. The full reviewed application source has **not yet been committed to this repository**. Do not treat this repository as a deployable source until that import is complete and verified.
+The beta application includes income and expense tracking, customer records, invoicing and export/backup tools.
 
-## Planned development
+## Project status
 
-Optional guest mode plus authenticated cloud synchronisation, developed on a separate feature branch. The production site must remain unchanged until testing and explicit release approval.
+**Current hosted version:** v0.3.3-beta.2
 
-Security: never commit customer data, exported JSON backups, passwords, tokens or service-role keys.
+The hosted application is currently maintained as a Cloudflare Pages upload artifact. **The full reviewed application source is not yet committed to this repository**, so cloning this repository does not reproduce the deployed app.
+
+I want to keep that clear until the source import and verification are finished.
+
+## What's next
+
+I'm exploring an optional guest mode and account-based cloud sync, developed separately from the current production version. These are plans, not features of the deployed beta.
+
+## Data and security
+
+Do not commit real customer records, exported backups, passwords, access tokens or service-role credentials. Treat any sample financial data as fictional.
+
+---
+
+*An independent project by [Abboryn Digital](https://abboryndigital.co.uk).*
